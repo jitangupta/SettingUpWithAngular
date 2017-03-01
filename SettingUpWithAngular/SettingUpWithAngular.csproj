@@ -22,20 +22,58 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app.css" />
+    <Content Include="app\app.component.js" />
+    <Content Include="app\app.module.js" />
+    <Content Include="app\author.compnent.js" />
+    <Content Include="app\author.service.js" />
+    <Content Include="app\boot.js" />
+    <Content Include="app\course.service.js" />
+    <Content Include="app\courses.component.js" />
+    <Content Include="app\favorite.compnent.js" />
+    <Content Include="app\favorite.template.html" />
+    <Content Include="app\like.component.js" />
+    <Content Include="app\main.js" />
+    <Content Include="app\vote.component.js" />
+    <Content Include="app\voter.component.js" />
     <Content Include="index.html" />
+    <Content Include="systemjs.config.js" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="app.ts" />
-  </ItemGroup>
-  <ItemGroup>
+    <Content Include="package.json" />
+    <Content Include="tsconfig.json" />
+    <Content Include="typings.json" />
+    <Content Include="app\app.component.js.map" />
+    <Content Include="app\app.module.js.map" />
+    <Content Include="app\author.compnent.js.map" />
+    <Content Include="app\author.service.js.map" />
+    <Content Include="app\boot.js.map" />
+    <Content Include="app\course.service.js.map" />
+    <Content Include="app\courses.component.js.map" />
+    <Content Include="app\favorite.compnent.js.map" />
+    <Content Include="app\like.component.js.map" />
+    <Content Include="app\main.js.map" />
+    <Content Include="app\vote.component.js.map" />
+    <Content Include="app\voter.component.js.map" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
     <None Include="web.Release.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="app\app.component.ts" />
+    <TypeScriptCompile Include="app\app.module.ts" />
+    <TypeScriptCompile Include="app\author.service.ts" />
+    <TypeScriptCompile Include="app\boot.ts" />
+    <TypeScriptCompile Include="app\course.service.ts" />
+    <TypeScriptCompile Include="app\courses.component.ts" />
+    <TypeScriptCompile Include="app\favorite.compnent.ts" />
+    <TypeScriptCompile Include="app\like.component.ts" />
+    <TypeScriptCompile Include="app\main.ts" />
+    <TypeScriptCompile Include="app\tweet.component.ts" />
+    <TypeScriptCompile Include="app\voter.component.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
